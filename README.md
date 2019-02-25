@@ -1,3 +1,12 @@
+# Disclaimer
+
+This is copy of MarlinFirmware Repo. There are changes made in configuration files that make it posible to fit firmware into 128kb memory of Atmega1280p microcontroller of Creality cr-10 3d printer.
+Right now it takes 98% of available memory but all essential functions were kept. This software also enables THERMAL_RUNAWAY_PROTECTION but only for hotend, not the bed. I do not take any resposibility if something goes wrong.
+It adds functions  of automatic mesh bed leveling, manual bed leveling, Z-probing offsets and PIDS optimization but yet You should find your own pids values with gcode M303. More info here https://reprap.org/wiki/PID_Tuning
+
+
+#Orginal MarlinFirmware Info
+
 # Marlin 3D Printer Firmware
 <img align="right" src="../../raw/1.1.x/buildroot/share/pixmaps/logo/marlin-250.png" />
 
